@@ -13,18 +13,18 @@ proxies:
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 48.102.168.5
+  server: 31.177.111.184
   port: 443
-  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lvi.su
+  servername: zry9ocg43w.flowersgood.top
   network: ws
   ws-opts:
-    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+    path: /static/collect/9412171e8a3a/
     headers:
-      Host: lvi.su
+      Host: zry9ocg43w.flowersgood.top
 proxy-groups:
 - name: PROXIES
   type: select
