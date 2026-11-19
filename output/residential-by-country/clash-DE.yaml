@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+- name: 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
   type: vless
-  server: 209.46.30.149
+  server: 172.64.88.98
   port: 443
-  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
+  uuid: afa524de-2b93-4be9-b846-6bc88d8a2ce1
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: resources.office.com.r3xxe.eu.cc
+  servername: 1v5Vp5jsQ611A5dsm.PAges.dEV
   network: ws
   ws-opts:
-    path: /us-gllc
+    path: /vl/fbo164EXEqNcjQ9WdWcK?ed=2560
     headers:
-      Host: resources.office.com.r3xxe.eu.cc
+      Host: 1v5vp5jsq611a5dsm.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇩🇪 德国 (Germany) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
